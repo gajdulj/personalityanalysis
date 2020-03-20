@@ -6,12 +6,13 @@ Any additional contributions will be appreciated.
 
 ## Summary of the analysis
 
-**1. Is there any trend in personalities across European countries?**
+**1. What traits are common for personalities across Europe?**
 * The average for all characteristics is near 3 on the 1 to 5 scale.
 * Highest variability measured by the standard deviation observed in emotional stability (σ=0.65).
 * Openness scored on average higher than other personality traits (μ=3.31).
 
 **2. Is there a link between different personality traits?**
+
 The strongest correlation identified for 
 * openness and consciousness: 0.33
 * agreeableness and extraversion: 0.32
@@ -24,7 +25,7 @@ The strongest correlation identified for
 * The xgboost model scored 13.2% better than a random guess.
 
 ------
-## libraries used:
+## Libraries used:
 * pandas
 * matplotlib
 * seaborn
@@ -34,9 +35,9 @@ The strongest correlation identified for
 * sklearn
 * graphviz
 ------
-## files in the repository:
-* personality_analysis.ipynb this is the file with analysis done so far
-* codebook.txt this file explains the dataset source as well as data dictionary.
+## Files in the repository:
+* personality_analysis.ipynb is the Jupyter notebook with the analysis
+* codebook.txt file explains the dataset source as well as data dictionary.
 * gitignore file specifies the file to be skipped from uploading to github- the original dataset has 400+ MB.
 ------
 ## Acknowledgements
