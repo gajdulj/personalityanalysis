@@ -4,6 +4,7 @@ The aim of this analysis is to evaluate the trends in human personalities across
 Initial work focuses on cleaning the data, dimensionality reduction and identifying the aggregated trends. 
 Any additional contributions will be appreciated.
 
+
 ## Summary of the analysis
 
 **1. What traits are common for personalities across Europe?**
@@ -19,7 +20,8 @@ The strongest correlation identified for
 * Correlation between emotional stability and extraversion significantly lower: 0.063.
 
 **3. Can UK citizens personality explain the unorthodox government response to COVID-19? (compare the results to Poland)**
-* Survey responses suggest that British people score 6.9% higher on extraversion, 5.3% less on emotional stability and 4.8% lower on conscientiousness.
+* Survey responses suggest that, on average, British respondents score 0.07 higher on extraversion, 0.05 less on emotional stability and 0.05 lower on conscientiousness. 
+* These traits could explain some of the asymmetric government responses between the two countries.
 
 **4.Can we predict respondents nationality based on their personality traits?**
 * The xgboost model scored 13.2% better than a random guess.
@@ -33,7 +35,6 @@ The strongest correlation identified for
 * collections (defaultdicst)
 * xgboost
 * sklearn
-* graphviz
 ------
 ## Files in the repository:
 * personality_analysis.ipynb is the Jupyter notebook with the analysis
