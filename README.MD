@@ -2,7 +2,7 @@
 
 The aim of this analysis is to evaluate the trends in human personalities across different European countries.
 Initial work focuses on cleaning the data, dimensionality reduction and identifying the aggregated trends. 
-Any additional contributions will be appreciated.
+Feedback and contributions will be appreciated.
 
 ## Medium post
 https://medium.com/@jakubgajdul/4-things-that-data-tells-us-about-our-personalities-210cdd8f71f
