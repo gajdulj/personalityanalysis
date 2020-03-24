@@ -9,24 +9,21 @@ https://medium.com/@jakubgajdul/4-things-that-data-tells-us-about-our-personalit
 
 ## Summary of the analysis
 
-**1. What traits are common for personalities across Europe?**
-* The average for all characteristics is near 3 on the 1 to 5 scale.
-* Highest variability measured by the standard deviation observed in emotional stability (σ=0.65).
-* Openness scored on average higher than other personality traits (μ=3.31).
+**1. Is there any trend in personalities across European countries? scale: -2 to 2**
+* The average for most of the characteristics near 0 (neutral).
+* The average agreeableness (μ=0.66) and openness (μ=1) slightly higher than for other traits.
+* Highest variability measured by the standard deviation observed in extraversion (σ=0.92).
 
 **2. Is there a link between different personality traits?**
+* The strongest correlation identified for extraversion and agreeableness: 0.3.
+* There are no significant correlations to point out between different personality traits.
 
-The strongest correlation identified for 
-* openness and consciousness: 0.33
-* agreeableness and extraversion: 0.32
-* Correlation between emotional stability and extraversion significantly lower: 0.063.
-
-**3. Can UK citizens personality explain the unorthodox government response to COVID-19? (compare the results to Poland)**
-* Survey responses suggest that, on average, British respondents score 0.07 higher on extraversion, 0.05 less on emotional stability and 0.05 lower on conscientiousness. 
-* These traits could explain some of the asymmetric government responses between the two countries.
+**3. Can UK citizens personality explain the delayed government response to COVID-19? Base on the comparison of Polish versus British responses.**
+* British respondents also score 0.23 on extraversion, implying that they may find it harder to refrain from socialising. 
+* Other traits did not differ enough to make any conclusions.
 
 **4.Can we predict respondents nationality based on their personality traits?**
-* The xgboost model scored 13.2% better than a random guess.
+* The xgboost model scored 13% better than a random guess.
 
 ------
 ## Libraries used:
